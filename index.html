@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f792690ad4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="main" role="main">
+      <img src="./images/logo.svg" alt="" class="logo" />
+      <h3 class="heading">We are launching <span class="span">soon!</span></h3>
+      <h4 class="sub-heading">Subscribe and get notified</h4>
+      <div class="form">
+        <div class="input-div">
+          <form class="mob-form" action="/">
+            <div>
+              <input
+                pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9-]+\.[a-z]{2,12}"
+                type="email"
+                placeholder="Your email address"
+              />
+              <p class="error">Please provide a valid email address</p>
+            </div>
+            <button class="btn">notify me</button>
+          </form>
+          <form class="desktop-form" action="/">
+            <div>
+              <input
+                pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9-]+\.[a-z]{2,12}"
+                type="email"
+                placeholder="Your email address"
+              />
+            </div>
+            <div><button class="btn">notify me</button></div>
+          </form>
+          <p class="error">Please provide a valid email address</p>
+        </div>
+      </div>
+      <div class="ill">
+        <img src="./images/illustration-dashboard.png" alt="" class="illus" />
+      </div>
+      <footer>
+        <div class="icons">
+          <span class="face"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="twit"><i class="fa-brands fa-twitter"></i></span>
+          <span class="insta"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        <p class="copyright">&copy; copyright ping. all rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
